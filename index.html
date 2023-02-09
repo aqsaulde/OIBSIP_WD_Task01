@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Basic Calculator</title>
+  <meta name="description" content="A Basic Calculator">
+  <meta name="author" content="SitePoint">
+
+  <!--====================Link to CSS====================-->
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<!--====================Main Body====================-->
+<body data-theme="">
+    <div class="main">
+        <div class="calculator">
+           <div class="headbg">
+            <h1 class="heading">Calculator</h1>
+        </div>
+            <div class="header">
+                <div class="switchBox">
+                    <input type="checkbox" name="" id="switch" value="switch">
+                    <div class="box">
+                    </div>
+                </div>
+            </div>
+
+            <!--====================Calculator Input Buttons====================-->
+            <div class="input">
+                <input type="text" name="" id="display" disabled>
+                <input type="button" value="C" class="cancel_btn">
+            </div>
+            <div class="row">
+                <input type="button" value="(">
+                <input type="button" value=")">
+                <input type="button" value="%">
+                <input type="button" value="+">
+            </div>
+            <div class="row">
+                <input type="button" value="7">
+                <input type="button" value="8">
+                <input type="button" value="9">
+                <input type="button" value="-">
+            </div>
+            <div class="row">
+                <input type="button" value="4">
+                <input type="button" value="5">
+                <input type="button" value="6">
+                <input type="button" value="/">
+            </div>
+            <div class="row">
+                <input type="button" value="1">
+                <input type="button" value="2">
+                <input type="button" value="3">
+                <input type="button" value="*">
+            </div>
+            <div class="row">
+                <input style="border-radius: 0 0 0 10px;" type="button" value=".">
+                <input type="button" value="0">
+                
+                <input style="width: 147px; border-radius: 0 0 10px 0; background: #b70aca; 
+                color: white;" type="button" id="calculate" value="=">
+            </div>
+        </div>
+    </div>
+
+    <!--====================Link to JavaScript====================-->
+  <script src="main.js"></script>
+</body>
+</html>
